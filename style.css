@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 30px; 
+}
+
+.logo {
+    color: #fff;
+}
+
+header {
+    height: 500px;
+    background-color: #1F2937;
+}
+
+header .header-nav {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    margin-left: 20px;
+}
+
+.nav li a {
+    font-size: 1.1rem;
+    color: #E5E7EB;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.header-content {
+    margin-top: 80px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content {
+    flex: 1 1 80%;
+    margin: 0 20px;
+}
+
+.text-content h1 {
+    color: #fff;
+    font-size: 2.8rem;
+}
+
+.text-content p {
+    color: #E5E7EB;
+    font-size: 1rem;
+    padding: 10px 0;
+}
+
+#sign-up {
+    margin-top: 10px;
+    padding: 8px 30px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: #3b82f6;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.image-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    background-color: #6d747d;
+}
+
+.image-holder p {
+    color: #E5E7EB;
+    font-size: 1rem;
+}
+
+.information {
+    height: 400px;
+    background-color: #fff;
+}
+
+.information h1 {
+    margin: 50px 0;
+    font-size: 1.8rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+.info-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-item {
+    width: 200px;
+}
+
+.box-item .box {
+    width: 200px;
+    height: 200px;
+    border: 4px solid #3b82f6;
+    border-radius: 15px;
+}
+
+.box-item p {
+    margin-top: 8px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.quote .container {
+    padding: 100px;
+}
+
+.inspiring-quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#author {
+    display: block;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: right;
+}
+
+.banner {
+    background-color: #fff;
+}
+
+.banner .container {
+    padding: 100px 0;
+}
+
+.signup-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 80px;
+    color: #fff;
+    background-color: #3b82f6;
+    border-radius: 10px;
+}
+
+.signup-banner h1 {
+    font-size: 30px;
+}
+
+.banner-text {
+    width: 80%;
+}
+
+.banner-text p {
+    font-size: 1.1rem;
+}
+
+.banner-btn .signup-btn {
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+    background-color: #1F2937;
+}
+
+.copy {
+    font-size: 1.1rem;
+}
